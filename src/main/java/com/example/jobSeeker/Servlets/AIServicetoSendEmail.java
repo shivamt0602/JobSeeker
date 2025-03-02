@@ -9,7 +9,7 @@ import okhttp3.*;
 @Service
 public class AIServicetoSendEmail {
 	
-	private static final String API_KEY = "AIzaSyC8-H4ItS6AODMmPhSleuFFyN3UoCfKQDk"; // Replace with your API Key
+	private static final String API_KEY = ""; // Replace with your API Key
 	private static final String GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key="
 			+ API_KEY;
 	
